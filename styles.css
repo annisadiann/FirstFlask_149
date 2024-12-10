@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeefc; 
+    color: #555;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Heading Style */
+h1 {
+    color: #ff66a3; 
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Container */
+.container {
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fffaf5; 
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Style */
+button {
+    display: inline-block;
+    padding: 8px 15px; 
+    background-color: #ff99cc; 
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    text-align: center;
+    max-width: 120px; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6699; 
+    transform: translateY(-2px);
+}
+
+/* Link Style */
+a {
+    text-decoration: none;
+    color: #ff66a3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #cc5277; 
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: center; 
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid #ffb3d9; 
+    border-radius: 10px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px; 
+    background-color: #fff0f6; 
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #ff99cc; 
+    outline: none;
+    background-color: #fff; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #ff66a3;
+}
+
+footer a:hover {
+    color: #cc5277;
+}
+
